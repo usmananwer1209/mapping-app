@@ -68,7 +68,7 @@
 				color: '#a1b2bd',
 				size: '4px',
 				height: '960px',
-				width: '300px'
+				width: '100%'
 			});
 		});	
 			

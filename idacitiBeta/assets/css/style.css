@@ -9051,7 +9051,7 @@ label.css-label {
 	}
 	
 	.radio label {
-	  display: inline-block;
+	  display: block;
 	  cursor: pointer;
 	  position: relative;
 	  padding-left: 25px;
@@ -9473,10 +9473,15 @@ label.css-label {
 	    z-index: 10;
 	}	
 
-	.slimScrollDiv {
-		float:left !important;
+	.slimScrollBar {
+		height:250px !important;
+	} 
 
+	.custom-textarea-1 {
+		height: 50px !important;
+		overflow: hidden !important;
 	}
+
 
 
 

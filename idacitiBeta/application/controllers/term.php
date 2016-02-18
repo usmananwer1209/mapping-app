@@ -167,7 +167,7 @@ class Term extends abstract_controller {
                                 <div class='form-group'>
                                     <label for='' class='col-md-3 control-label'>Definition:</label>
                                     <div class='col-md-9'>
-                                        <textarea class='form-control' rows='1' name='term_description' >".$term_rule['description']."</textarea>
+                                        <textarea class='form-control custom-textarea-1' rows='1' name='term_description' >".$term_rule['description']."</textarea>
                                     </div>  
                                 </div>  
                                 <div class='form-group custom-form-group'>

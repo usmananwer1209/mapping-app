@@ -2683,3 +2683,610 @@ DEBUG - 2016-02-17 05:45:22 --> File loaded: application/views/term/view_term_re
 DEBUG - 2016-02-17 05:45:22 --> File loaded: application/views/general/footer.php
 DEBUG - 2016-02-17 05:45:22 --> load home took 1.5371
 DEBUG - 2016-02-17 05:45:22 --> Total execution time: 1.6041
+ERROR - 2016-02-17 06:27:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 06:27:55 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 06:27:55 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 06:27:56 --> load home model 0.0000
+DEBUG - 2016-02-17 06:27:56 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termResult/includeMissing/json?token=oepsy3b6&entity=002632&term=467351&includeAnnual=true&includeQuarterly=true
+DEBUG - 2016-02-17 06:27:58 --> Api_model-get_companies_data: 2.2191
+DEBUG - 2016-02-17 06:27:58 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 06:27:58 --> File loaded: application/views/term/view_term_result.php
+DEBUG - 2016-02-17 06:27:58 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 06:27:58 --> load home took 3.0232
+DEBUG - 2016-02-17 06:27:58 --> Total execution time: 3.1202
+ERROR - 2016-02-17 06:28:01 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 06:28:01 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 06:28:01 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 06:28:02 --> load home model 0.0000
+DEBUG - 2016-02-17 06:28:02 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termResult/includeMissing/json?token=oepsy3b6&entity=002632&term=467351&includeAnnual=true&includeQuarterly=true
+DEBUG - 2016-02-17 06:28:03 --> Api_model-get_companies_data: 1.2921
+DEBUG - 2016-02-17 06:28:03 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 06:28:03 --> File loaded: application/views/term/view_term_result.php
+DEBUG - 2016-02-17 06:28:03 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 06:28:03 --> load home took 2.1931
+DEBUG - 2016-02-17 06:28:03 --> Total execution time: 2.2841
+ERROR - 2016-02-17 06:40:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 06:40:27 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 06:40:27 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 06:40:28 --> load home model 0.0000
+DEBUG - 2016-02-17 06:40:28 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termResult/includeMissing/json?token=oepsy3b6&entity=002632&term=467351&includeAnnual=true&includeQuarterly=true
+DEBUG - 2016-02-17 06:40:29 --> Api_model-get_companies_data: 0.9371
+DEBUG - 2016-02-17 06:40:29 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 06:40:29 --> File loaded: application/views/term/view_term_result.php
+DEBUG - 2016-02-17 06:40:29 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 06:40:29 --> load home took 1.8821
+DEBUG - 2016-02-17 06:40:29 --> Total execution time: 1.9751
+ERROR - 2016-02-17 06:40:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 06:40:32 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 06:40:32 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 06:40:33 --> load home model 0.0000
+DEBUG - 2016-02-17 06:40:33 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termResult/includeMissing/json?token=oepsy3b6&entity=002632&term=467351&includeAnnual=true&includeQuarterly=true
+DEBUG - 2016-02-17 06:40:34 --> Api_model-get_companies_data: 0.8760
+DEBUG - 2016-02-17 06:40:34 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 06:40:34 --> File loaded: application/views/term/view_term_result.php
+DEBUG - 2016-02-17 06:40:34 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 06:40:34 --> load home took 1.7901
+DEBUG - 2016-02-17 06:40:34 --> Total execution time: 1.8711
+ERROR - 2016-02-17 06:56:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 06:56:45 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 06:56:45 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 06:56:46 --> load home model 0.0000
+DEBUG - 2016-02-17 06:56:46 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+DEBUG - 2016-02-17 06:56:51 --> Api_model-get_companies_data: 4.5701
+DEBUG - 2016-02-17 06:56:51 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 06:56:51 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 06:56:51 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 06:56:51 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 06:56:51 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 06:56:51 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 06:56:51 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 06:56:51 --> load home took 5.6038
+DEBUG - 2016-02-17 06:56:51 --> Total execution time: 5.7051
+ERROR - 2016-02-17 06:57:09 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 06:57:09 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 06:57:09 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/expressions/json?token=gK-!dU&termId=467351
+DEBUG - 2016-02-17 06:57:10 --> Api_model-get_companies_data: 0.5800
+DEBUG - 2016-02-17 06:57:10 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=467351
+DEBUG - 2016-02-17 06:57:11 --> Api_model-get_companies_data: 1.3700
+DEBUG - 2016-02-17 06:57:11 --> Total execution time: 2.0650
+ERROR - 2016-02-17 06:57:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 06:57:17 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 06:57:17 --> Total execution time: 0.1650
+ERROR - 2016-02-17 06:57:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 06:57:26 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 06:57:26 --> Total execution time: 0.1025
+ERROR - 2016-02-17 06:57:28 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 06:57:28 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 06:57:28 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=467351&sector=Construction&industry=Heavy%20Construction%2C%20Except%20Building&sicCode=1623
+DEBUG - 2016-02-17 06:57:28 --> Api_model-get_companies_data: 0.6813
+DEBUG - 2016-02-17 06:57:28 --> Total execution time: 0.7725
+ERROR - 2016-02-17 06:57:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 06:57:30 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 06:57:30 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=467351&sector=Construction&industry=Heavy%20Construction%2C%20Except%20Building&sicCode=1623
+DEBUG - 2016-02-17 06:57:31 --> Api_model-get_companies_data: 0.7450
+DEBUG - 2016-02-17 06:57:31 --> Total execution time: 0.9425
+ERROR - 2016-02-17 06:59:05 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 06:59:05 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 06:59:05 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 06:59:06 --> load home model 0.0000
+DEBUG - 2016-02-17 06:59:06 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termResult/includeMissing/json?token=oepsy3b6&entity=002653&term=467351&includeAnnual=true&includeQuarterly=true
+DEBUG - 2016-02-17 06:59:07 --> Api_model-get_companies_data: 1.2925
+DEBUG - 2016-02-17 06:59:07 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 06:59:07 --> File loaded: application/views/term/view_term_result.php
+DEBUG - 2016-02-17 06:59:07 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 06:59:07 --> load home took 2.0613
+DEBUG - 2016-02-17 06:59:07 --> Total execution time: 2.1400
+ERROR - 2016-02-17 06:59:10 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 06:59:10 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 06:59:10 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 06:59:10 --> load home model 0.0000
+DEBUG - 2016-02-17 06:59:10 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termResult/includeMissing/json?token=oepsy3b6&entity=002653&term=467351&includeAnnual=true&includeQuarterly=true
+DEBUG - 2016-02-17 06:59:12 --> Api_model-get_companies_data: 1.4613
+DEBUG - 2016-02-17 06:59:12 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 06:59:12 --> File loaded: application/views/term/view_term_result.php
+DEBUG - 2016-02-17 06:59:12 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 06:59:12 --> load home took 2.1200
+DEBUG - 2016-02-17 06:59:12 --> Total execution time: 2.1863
+ERROR - 2016-02-17 07:00:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:00:52 --> Config file loaded: application/config/session.php
+ERROR - 2016-02-17 07:00:53 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:00:53 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:00:53 --> File loaded: application/views/signing/login.php
+DEBUG - 2016-02-17 07:00:53 --> Total execution time: 0.2760
+ERROR - 2016-02-17 07:00:54 --> 404 Page Not Found --> assets
+ERROR - 2016-02-17 07:00:54 --> 404 Page Not Found --> assets
+ERROR - 2016-02-17 07:00:56 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:00:56 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:00:56 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2016-02-17 07:00:56 --> XSS Filtering completed
+DEBUG - 2016-02-17 07:00:56 --> XSS Filtering completed
+DEBUG - 2016-02-17 07:00:56 --> session.set_userdata called with user NOT set
+ERROR - 2016-02-17 07:00:56 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:00:56 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:00:56 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 07:00:57 --> load home model 0.0000
+DEBUG - 2016-02-17 07:00:57 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+DEBUG - 2016-02-17 07:00:59 --> Api_model-get_companies_data: 2.0871
+DEBUG - 2016-02-17 07:00:59 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 07:00:59 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 07:00:59 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 07:00:59 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 07:00:59 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 07:00:59 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 07:00:59 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 07:00:59 --> load home took 3.1452
+DEBUG - 2016-02-17 07:00:59 --> Total execution time: 3.2222
+ERROR - 2016-02-17 07:03:12 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:03:12 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:03:12 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/expressions/json?token=gK-!dU&termId=863954
+ERROR - 2016-02-17 07:03:13 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:03:13 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:03:13 --> Api_model-get_companies_data: 0.7213
+DEBUG - 2016-02-17 07:03:13 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=863954
+DEBUG - 2016-02-17 07:03:14 --> Api_model-get_companies_data: 1.3513
+DEBUG - 2016-02-17 07:03:14 --> Total execution time: 2.1775
+DEBUG - 2016-02-17 07:03:14 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/expressions/json?token=gK-!dU&termId=863954
+DEBUG - 2016-02-17 07:03:15 --> Api_model-get_companies_data: 0.6338
+DEBUG - 2016-02-17 07:03:15 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=863954
+DEBUG - 2016-02-17 07:03:16 --> Api_model-get_companies_data: 1.2213
+DEBUG - 2016-02-17 07:03:16 --> Total execution time: 3.7788
+ERROR - 2016-02-17 07:04:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:04:20 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:04:21 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 07:04:21 --> load home model 0.0000
+DEBUG - 2016-02-17 07:04:21 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+DEBUG - 2016-02-17 07:04:24 --> Api_model-get_companies_data: 2.6263
+DEBUG - 2016-02-17 07:04:24 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 07:04:24 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 07:04:24 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 07:04:24 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 07:04:24 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 07:04:24 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 07:04:24 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 07:04:24 --> load home took 3.5188
+DEBUG - 2016-02-17 07:04:24 --> Total execution time: 3.6063
+ERROR - 2016-02-17 07:04:29 --> 404 Page Not Found --> assets
+ERROR - 2016-02-17 07:10:10 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:10:10 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:10:10 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 07:10:11 --> load home model 0.0000
+DEBUG - 2016-02-17 07:10:11 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+DEBUG - 2016-02-17 07:10:13 --> Api_model-get_companies_data: 2.2350
+DEBUG - 2016-02-17 07:10:13 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 07:10:14 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 07:10:14 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 07:10:14 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 07:10:14 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 07:10:14 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 07:10:14 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 07:10:14 --> load home took 3.1638
+DEBUG - 2016-02-17 07:10:14 --> Total execution time: 3.2551
+ERROR - 2016-02-17 07:10:27 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:10:28 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:10:28 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/expressions/json?token=gK-!dU&termId=467351
+DEBUG - 2016-02-17 07:10:28 --> Api_model-get_companies_data: 0.5825
+DEBUG - 2016-02-17 07:10:28 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=467351
+DEBUG - 2016-02-17 07:10:30 --> Api_model-get_companies_data: 1.4425
+DEBUG - 2016-02-17 07:10:30 --> Total execution time: 2.6163
+ERROR - 2016-02-17 07:12:39 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:12:39 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:12:39 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 07:12:40 --> load home model 0.0000
+DEBUG - 2016-02-17 07:12:40 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+DEBUG - 2016-02-17 07:12:42 --> Api_model-get_companies_data: 2.2013
+DEBUG - 2016-02-17 07:12:42 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 07:12:42 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 07:12:42 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 07:12:42 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 07:12:42 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 07:12:42 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 07:12:42 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 07:12:42 --> load home took 3.1325
+DEBUG - 2016-02-17 07:12:42 --> Total execution time: 3.2225
+ERROR - 2016-02-17 07:12:48 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:12:48 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:12:48 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 07:12:48 --> load home model 0.0000
+DEBUG - 2016-02-17 07:12:48 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+DEBUG - 2016-02-17 07:12:50 --> Api_model-get_companies_data: 2.1325
+DEBUG - 2016-02-17 07:12:50 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 07:12:50 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 07:12:50 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 07:12:50 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 07:12:50 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 07:12:50 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 07:12:50 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 07:12:50 --> load home took 2.7913
+DEBUG - 2016-02-17 07:12:51 --> Total execution time: 2.8488
+ERROR - 2016-02-17 07:16:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:16:20 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:16:20 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 07:16:21 --> load home model 0.0000
+DEBUG - 2016-02-17 07:16:21 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+DEBUG - 2016-02-17 07:16:24 --> Api_model-get_companies_data: 3.3426
+DEBUG - 2016-02-17 07:16:24 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 07:16:24 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 07:16:24 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 07:16:24 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 07:16:24 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 07:16:24 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 07:16:24 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 07:16:24 --> load home took 4.3338
+DEBUG - 2016-02-17 07:16:24 --> Total execution time: 4.4351
+ERROR - 2016-02-17 07:16:34 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:16:34 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:16:34 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 07:16:35 --> load home model 0.0000
+DEBUG - 2016-02-17 07:16:35 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+DEBUG - 2016-02-17 07:16:38 --> Api_model-get_companies_data: 2.8782
+DEBUG - 2016-02-17 07:16:38 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 07:16:38 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 07:16:38 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 07:16:38 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 07:16:38 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 07:16:38 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 07:16:38 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 07:16:38 --> load home took 3.8332
+DEBUG - 2016-02-17 07:16:38 --> Total execution time: 3.9222
+ERROR - 2016-02-17 07:16:44 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:16:44 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:16:44 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 07:16:45 --> load home model 0.0000
+DEBUG - 2016-02-17 07:16:45 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+DEBUG - 2016-02-17 07:16:47 --> Api_model-get_companies_data: 2.0511
+DEBUG - 2016-02-17 07:16:47 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 07:16:47 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 07:16:47 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 07:16:47 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 07:16:47 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 07:16:47 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 07:16:47 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 07:16:47 --> load home took 2.9452
+DEBUG - 2016-02-17 07:16:47 --> Total execution time: 3.0202
+ERROR - 2016-02-17 07:16:48 --> 404 Page Not Found --> assets
+ERROR - 2016-02-17 07:28:32 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:28:32 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:28:32 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/expressions/json?token=gK-!dU&termId=467351
+DEBUG - 2016-02-17 07:28:33 --> Api_model-get_companies_data: 0.6500
+DEBUG - 2016-02-17 07:28:33 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=467351
+DEBUG - 2016-02-17 07:28:34 --> Api_model-get_companies_data: 1.5750
+DEBUG - 2016-02-17 07:28:34 --> Total execution time: 2.3300
+ERROR - 2016-02-17 07:28:39 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:28:39 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:28:39 --> Total execution time: 0.1188
+ERROR - 2016-02-17 07:28:40 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:28:40 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:28:40 --> Total execution time: 0.1000
+ERROR - 2016-02-17 07:28:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:28:42 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:28:42 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=467351&sector=Construction&industry=Heavy%20Construction%2C%20Except%20Building&sicCode=1623
+DEBUG - 2016-02-17 07:28:43 --> Api_model-get_companies_data: 0.5950
+DEBUG - 2016-02-17 07:28:43 --> Total execution time: 0.6813
+ERROR - 2016-02-17 07:28:47 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:28:47 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:28:47 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 07:28:48 --> load home model 0.0000
+DEBUG - 2016-02-17 07:28:48 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termResult/includeMissing/json?token=oepsy3b6&entity=002653&term=467351&includeAnnual=true&includeQuarterly=true
+DEBUG - 2016-02-17 07:28:49 --> Api_model-get_companies_data: 0.9550
+DEBUG - 2016-02-17 07:28:49 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 07:28:49 --> File loaded: application/views/term/view_term_result.php
+DEBUG - 2016-02-17 07:28:49 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 07:28:49 --> load home took 1.7938
+DEBUG - 2016-02-17 07:28:49 --> Total execution time: 1.8775
+ERROR - 2016-02-17 07:28:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:28:52 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:28:52 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 07:28:53 --> load home model 0.0000
+DEBUG - 2016-02-17 07:28:53 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termResult/includeMissing/json?token=oepsy3b6&entity=002653&term=467351&includeAnnual=true&includeQuarterly=true
+DEBUG - 2016-02-17 07:28:54 --> Api_model-get_companies_data: 0.8375
+DEBUG - 2016-02-17 07:28:54 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 07:28:54 --> File loaded: application/views/term/view_term_result.php
+DEBUG - 2016-02-17 07:28:54 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 07:28:54 --> load home took 1.6138
+DEBUG - 2016-02-17 07:28:54 --> Total execution time: 1.6888
+ERROR - 2016-02-17 07:28:54 --> 404 Page Not Found --> assets
+ERROR - 2016-02-17 07:29:01 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:29:01 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:29:01 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/expressions/json?token=gK-!dU&termId=365624
+DEBUG - 2016-02-17 07:29:02 --> Api_model-get_companies_data: 0.8438
+DEBUG - 2016-02-17 07:29:02 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=365624
+DEBUG - 2016-02-17 07:29:03 --> Api_model-get_companies_data: 1.4488
+DEBUG - 2016-02-17 07:29:03 --> Total execution time: 2.3875
+ERROR - 2016-02-17 07:29:07 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:29:07 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:29:07 --> Total execution time: 0.1270
+ERROR - 2016-02-17 07:29:08 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:29:08 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:29:08 --> Total execution time: 0.0960
+ERROR - 2016-02-17 07:29:12 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:29:12 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:29:12 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=365624&sector=Agriculture%2C%20Forestry%20and%20Fishing&industry=Agricultural%20Services&sicCode=0700
+DEBUG - 2016-02-17 07:29:12 --> Api_model-get_companies_data: 0.5788
+DEBUG - 2016-02-17 07:29:12 --> Total execution time: 0.6663
+ERROR - 2016-02-17 07:29:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:29:15 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:29:15 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 07:29:16 --> load home model 0.0000
+DEBUG - 2016-02-17 07:29:16 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termResult/includeMissing/json?token=oepsy3b6&entity=002526&term=365624&includeAnnual=true&includeQuarterly=true
+DEBUG - 2016-02-17 07:29:17 --> Api_model-get_companies_data: 1.6550
+DEBUG - 2016-02-17 07:29:17 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 07:29:17 --> File loaded: application/views/term/view_term_result.php
+DEBUG - 2016-02-17 07:29:17 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 07:29:17 --> load home took 2.4400
+DEBUG - 2016-02-17 07:29:17 --> Total execution time: 2.5275
+ERROR - 2016-02-17 07:30:54 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 07:30:54 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 07:30:54 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 07:30:55 --> load home model 0.0000
+DEBUG - 2016-02-17 07:30:55 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termResult/includeMissing/json?token=oepsy3b6&entity=002526&term=365624&includeAnnual=true&includeQuarterly=true
+DEBUG - 2016-02-17 07:30:56 --> Api_model-get_companies_data: 1.0381
+DEBUG - 2016-02-17 07:30:56 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 07:30:56 --> File loaded: application/views/term/view_term_result.php
+DEBUG - 2016-02-17 07:30:56 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 07:30:56 --> load home took 1.9591
+DEBUG - 2016-02-17 07:30:56 --> Total execution time: 2.0501
+ERROR - 2016-02-17 23:45:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-02-17 23:45:30 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10053 An established connection was aborted by the software in your host machine.
+ C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:45:30 --> Config file loaded: application/config/session.php
+ERROR - 2016-02-17 23:45:30 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:45:30 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:45:30 --> File loaded: application/views/signing/login.php
+DEBUG - 2016-02-17 23:45:30 --> Total execution time: 0.0963
+ERROR - 2016-02-17 23:47:56 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-02-17 23:47:56 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10053 An established connection was aborted by the software in your host machine.
+ C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:47:56 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:47:56 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2016-02-17 23:47:56 --> XSS Filtering completed
+DEBUG - 2016-02-17 23:47:56 --> XSS Filtering completed
+DEBUG - 2016-02-17 23:47:56 --> session.set_userdata called with user NOT set
+ERROR - 2016-02-17 23:47:56 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:47:56 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:47:56 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 23:47:57 --> load home model 0.0000
+DEBUG - 2016-02-17 23:47:57 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+DEBUG - 2016-02-17 23:48:01 --> Api_model-get_companies_data: 3.4151
+DEBUG - 2016-02-17 23:48:01 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 23:48:01 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 23:48:01 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 23:48:01 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 23:48:01 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 23:48:01 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 23:48:01 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 23:48:01 --> load home took 4.3438
+DEBUG - 2016-02-17 23:48:01 --> Total execution time: 4.4213
+ERROR - 2016-02-17 23:48:05 --> 404 Page Not Found --> assets
+ERROR - 2016-02-17 23:48:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:48:55 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:48:56 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 23:48:56 --> load home model 0.0000
+DEBUG - 2016-02-17 23:48:56 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+DEBUG - 2016-02-17 23:48:59 --> Api_model-get_companies_data: 2.3163
+DEBUG - 2016-02-17 23:48:59 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 23:48:59 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 23:48:59 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 23:48:59 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 23:48:59 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 23:48:59 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 23:48:59 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 23:48:59 --> load home took 3.3513
+DEBUG - 2016-02-17 23:48:59 --> Total execution time: 3.4376
+ERROR - 2016-02-17 23:49:04 --> 404 Page Not Found --> assets
+ERROR - 2016-02-17 23:50:26 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-02-17 23:50:26 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10053 An established connection was aborted by the software in your host machine.
+ C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:50:26 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:50:26 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 23:50:27 --> load home model 0.0000
+DEBUG - 2016-02-17 23:50:27 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+DEBUG - 2016-02-17 23:50:30 --> Api_model-get_companies_data: 2.4038
+DEBUG - 2016-02-17 23:50:30 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 23:50:30 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 23:50:30 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 23:50:30 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 23:50:30 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 23:50:30 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 23:50:30 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 23:50:30 --> load home took 3.3551
+DEBUG - 2016-02-17 23:50:30 --> Total execution time: 3.5013
+ERROR - 2016-02-17 23:51:03 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:51:03 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:51:03 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/expressions/json?token=gK-!dU&termId=467351
+DEBUG - 2016-02-17 23:51:03 --> Api_model-get_companies_data: 0.8438
+DEBUG - 2016-02-17 23:51:03 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=467351
+DEBUG - 2016-02-17 23:51:05 --> Api_model-get_companies_data: 1.5900
+DEBUG - 2016-02-17 23:51:05 --> Total execution time: 2.5575
+ERROR - 2016-02-17 23:51:18 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:51:18 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:51:18 --> Total execution time: 0.1288
+ERROR - 2016-02-17 23:51:20 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:51:20 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:51:20 --> Total execution time: 0.0988
+ERROR - 2016-02-17 23:51:22 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:51:22 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:51:22 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=467351&sector=%22Finance%2C%20Insurance%2C%20&amp;%20Real%20Estate%22&industry=%22Security%20&amp;%20Commodity%20Brokers%2C%20Dealers%2C%20Exchanges%2C%20&amp;%20Services%22&sicCode=6200
+DEBUG - 2016-02-17 23:51:23 --> Api_model-get_companies_data: 0.6350
+ERROR - 2016-02-17 23:51:23 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\idacitiBeta\application\controllers\term.php 516
+DEBUG - 2016-02-17 23:51:23 --> Total execution time: 0.7300
+ERROR - 2016-02-17 23:51:44 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:51:44 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:51:44 --> Total execution time: 0.1088
+ERROR - 2016-02-17 23:51:45 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:51:45 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:51:45 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=467351&sector=%22Finance%2C%20Insurance%2C%20&amp;%20Real%20Estate%22&industry=%22Security%20&amp;%20Commodity%20Brokers%2C%20Dealers%2C%20Exchanges%2C%20&amp;%20Services%22&sicCode=6282
+DEBUG - 2016-02-17 23:51:45 --> Api_model-get_companies_data: 0.6688
+ERROR - 2016-02-17 23:51:45 --> Severity: Warning  --> Invalid argument supplied for foreach() C:\xampp\htdocs\idacitiBeta\application\controllers\term.php 516
+DEBUG - 2016-02-17 23:51:45 --> Total execution time: 0.7625
+ERROR - 2016-02-17 23:51:55 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:51:55 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:51:55 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 23:51:56 --> load home model 0.0000
+DEBUG - 2016-02-17 23:51:56 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+DEBUG - 2016-02-17 23:51:58 --> Api_model-get_companies_data: 2.0328
+DEBUG - 2016-02-17 23:51:58 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 23:51:58 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 23:51:58 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 23:51:58 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 23:51:58 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 23:51:58 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 23:51:58 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 23:51:58 --> load home took 3.1719
+DEBUG - 2016-02-17 23:51:58 --> Total execution time: 3.2651
+ERROR - 2016-02-17 23:52:03 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+ERROR - 2016-02-17 23:52:03 --> Severity: Notice  --> mysql_pconnect(): send of 5 bytes failed with errno=10053 An established connection was aborted by the software in your host machine.
+ C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:52:03 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:52:03 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/expressions/json?token=gK-!dU&termId=403335
+DEBUG - 2016-02-17 23:52:04 --> Api_model-get_companies_data: 0.6225
+DEBUG - 2016-02-17 23:52:04 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=403335
+DEBUG - 2016-02-17 23:52:05 --> Api_model-get_companies_data: 1.3038
+DEBUG - 2016-02-17 23:52:05 --> Total execution time: 2.0788
+ERROR - 2016-02-17 23:52:15 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:52:15 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:52:15 --> Total execution time: 0.1550
+ERROR - 2016-02-17 23:52:17 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:52:17 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:52:17 --> Total execution time: 0.0988
+ERROR - 2016-02-17 23:52:29 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:52:29 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:52:29 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=403335&sector=Manufacturing&industry=%22Chemical%20&amp;%20Allied%20Products%22&sicCode=2834
+DEBUG - 2016-02-17 23:52:30 --> Api_model-get_companies_data: 0.9838
+DEBUG - 2016-02-17 23:52:30 --> Total execution time: 1.2100
+ERROR - 2016-02-17 23:52:52 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:52:52 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:52:52 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 23:52:52 --> load home model 0.0000
+DEBUG - 2016-02-17 23:52:52 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termResult/includeMissing/json?token=oepsy3b6&entity=002924&term=403335&includeAnnual=true&includeQuarterly=true
+DEBUG - 2016-02-17 23:52:53 --> Api_model-get_companies_data: 1.1038
+DEBUG - 2016-02-17 23:52:53 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 23:52:53 --> File loaded: application/views/term/view_term_result.php
+DEBUG - 2016-02-17 23:52:53 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 23:52:53 --> load home took 1.8025
+DEBUG - 2016-02-17 23:52:53 --> Total execution time: 1.8738
+ERROR - 2016-02-17 23:52:57 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:52:57 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:52:57 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 23:52:57 --> load home model 0.0000
+DEBUG - 2016-02-17 23:52:57 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termResult/includeMissing/json?token=oepsy3b6&entity=002924&term=403335&includeAnnual=true&includeQuarterly=true
+DEBUG - 2016-02-17 23:52:58 --> Api_model-get_companies_data: 0.8675
+DEBUG - 2016-02-17 23:52:58 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 23:52:58 --> File loaded: application/views/term/view_term_result.php
+DEBUG - 2016-02-17 23:52:58 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 23:52:58 --> load home took 1.6713
+DEBUG - 2016-02-17 23:52:58 --> Total execution time: 1.7425
+ERROR - 2016-02-17 23:54:58 --> 404 Page Not Found --> blank.gif
+ERROR - 2016-02-17 23:56:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:56:36 --> Config file loaded: application/config/session.php
+ERROR - 2016-02-17 23:56:36 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:56:36 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:56:36 --> File loaded: application/views/signing/login.php
+DEBUG - 2016-02-17 23:56:36 --> Total execution time: 0.0850
+ERROR - 2016-02-17 23:56:39 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:56:39 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:56:39 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2016-02-17 23:56:39 --> XSS Filtering completed
+DEBUG - 2016-02-17 23:56:39 --> XSS Filtering completed
+DEBUG - 2016-02-17 23:56:39 --> session.set_userdata called with user NOT set
+ERROR - 2016-02-17 23:56:39 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:56:39 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:56:39 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 23:56:40 --> load home model 0.0000
+DEBUG - 2016-02-17 23:56:40 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+ERROR - 2016-02-17 23:56:42 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:56:42 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:56:42 --> Api_model-get_companies_data: 2.1711
+DEBUG - 2016-02-17 23:56:42 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 23:56:42 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 23:56:43 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 23:56:43 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 23:56:43 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 23:56:43 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 23:56:43 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 23:56:43 --> load home took 3.1112
+DEBUG - 2016-02-17 23:56:43 --> Total execution time: 3.1952
+DEBUG - 2016-02-17 23:56:43 --> Language file loaded: language/english/form_validation_lang.php
+DEBUG - 2016-02-17 23:56:43 --> XSS Filtering completed
+DEBUG - 2016-02-17 23:56:43 --> XSS Filtering completed
+DEBUG - 2016-02-17 23:56:43 --> session.set_userdata called with user already set: stdClass Object
+(
+    [id] => 2
+    [first_name] => Emily
+    [last_name] => Huang
+    [email] => emily.huang@idaciti.com
+    [password] => Aucent24
+    [init_pass] => 0
+    [is_active] => 1
+    [enable_benchmark] => 1
+    [enable_load_data] => 1
+    [is_root] => 1
+    [organization] => idaciti, Inc.
+    [avatar] => true
+    [public_profile] => 1
+    [country] => US
+    [creation_time] => 2015-12-17 05:11:59
+    [modification_time] => 2014-04-05 04:15:11
+    [linkedin_profile] => www.linkedin.com/in/emilyhuang/
+    [google_profile] => mailto:ehuang0530@gmail.com
+    [facebook_profile] => test
+    [twitter_profile] => twitter.com/idacitiShare
+    [about] => Co-Founder & CEO at idaciti, Inc.
+Co-Founder & SVP of Sales & Marketing at Rivet Software
+Co-Founder & Vice President, Business Technology at Rivet Software
+Director, Business Intelligence/Software Development at ESurance
+    [current_program] => 
+    [pass_token] => 
+)
+
+DEBUG - 2016-02-17 23:56:43 --> session.set_userdata new value: stdClass Object
+(
+    [id] => 2
+    [first_name] => Emily
+    [last_name] => Huang
+    [email] => emily.huang@idaciti.com
+    [password] => Aucent24
+    [init_pass] => 0
+    [is_active] => 1
+    [enable_benchmark] => 1
+    [enable_load_data] => 1
+    [is_root] => 1
+    [organization] => idaciti, Inc.
+    [avatar] => true
+    [public_profile] => 1
+    [country] => US
+    [creation_time] => 2015-12-17 05:11:59
+    [modification_time] => 2014-04-05 04:15:11
+    [linkedin_profile] => www.linkedin.com/in/emilyhuang/
+    [google_profile] => mailto:ehuang0530@gmail.com
+    [facebook_profile] => test
+    [twitter_profile] => twitter.com/idacitiShare
+    [about] => Co-Founder & CEO at idaciti, Inc.
+Co-Founder & SVP of Sales & Marketing at Rivet Software
+Co-Founder & Vice President, Business Technology at Rivet Software
+Director, Business Intelligence/Software Development at ESurance
+    [current_program] => 
+    [pass_token] => 
+)
+
+ERROR - 2016-02-17 23:56:43 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:56:43 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:56:43 --> method: cards_model.cards_shared_with_user
+DEBUG - 2016-02-17 23:56:43 --> load home model 0.0000
+DEBUG - 2016-02-17 23:56:44 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl
+DEBUG - 2016-02-17 23:56:46 --> Api_model-get_companies_data: 2.7872
+DEBUG - 2016-02-17 23:56:46 --> File loaded: application/views/general/header.php
+DEBUG - 2016-02-17 23:56:46 --> File loaded: application/views/term/term.php
+ERROR - 2016-02-17 23:56:46 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 52
+ERROR - 2016-02-17 23:56:46 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 53
+ERROR - 2016-02-17 23:56:46 --> Severity: Notice  --> Undefined variable: min_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 54
+ERROR - 2016-02-17 23:56:46 --> Severity: Notice  --> Undefined variable: max_value C:\xampp\htdocs\idacitiBeta\application\views\general\js_footer.php 55
+DEBUG - 2016-02-17 23:56:46 --> File loaded: application/views/general/footer.php
+DEBUG - 2016-02-17 23:56:46 --> load home took 3.6952
+DEBUG - 2016-02-17 23:56:46 --> Total execution time: 3.7762
+ERROR - 2016-02-17 23:57:00 --> Severity: 8192  --> mysql_pconnect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead C:\xampp\htdocs\idacitiBeta\system\database\drivers\mysql\mysql_driver.php 91
+DEBUG - 2016-02-17 23:57:00 --> Config file loaded: application/config/session.php
+DEBUG - 2016-02-17 23:57:00 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/expressions/json?token=gK-!dU&termId=467351
+DEBUG - 2016-02-17 23:57:00 --> Api_model-get_companies_data: 0.6520
+DEBUG - 2016-02-17 23:57:00 --> Api_model-get_companies_data url: http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId=467351
+DEBUG - 2016-02-17 23:57:02 --> Api_model-get_companies_data: 1.5081
+DEBUG - 2016-02-17 23:57:02 --> Total execution time: 2.2801

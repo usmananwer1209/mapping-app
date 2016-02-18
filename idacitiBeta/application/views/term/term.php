@@ -9,7 +9,10 @@
 		  
 			<div class="content">
 					
-				<div id="inner-content-div" class="col-md-3 col-sm-12 itacidi-new-left-panel">
+				<div class="col-md-3 col-sm-12 itacidi-new-left-panel">
+				
+				<div id="inner-content-div"> 	
+
 					<div class="col-md-12  col-sm-12">
 						<form>	
 							<div class="form-group cutom-form-group">
@@ -163,7 +166,9 @@ No Record Found!
 }
 ?>					
 						
-					</div>			
+					</div>
+
+					</div>		
 					
 				</div>						
 						
@@ -205,7 +210,7 @@ No Record Found!
 								<div class="form-group">
 									<label for="" class="col-md-3  control-label">Definition:</label>
 									<div class="col-md-9">
-										<textarea class="form-control" rows="1"></textarea>
+										<textarea class="form-control custom-textarea-1" rows="1"></textarea>
 									</div>	
 								</div>	
 								<div class="form-group custom-form-group">
