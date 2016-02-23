@@ -4,7 +4,7 @@ if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
 $folder = dirname(dirname(__FILE__));
-require_once $folder . "/helpers/curl.php";
+//require_once $folder . "/helpers/curl.php";
 //require_once 'abstract_mongo_model.php';
 
 class Api_model extends CI_Model {
@@ -13,69 +13,66 @@ class Api_model extends CI_Model {
     
     public function __construct(){
         parent::__construct();
-    }
 
-    public function get_termResults_data($entityID, $termID, $FYFQ, $specialFormat = FALSE) {
-
-        return $this->get_termResults_data_rest($entityID, $termID, $FYFQ);
+        $this->load->helper('curl');
     }
 
     protected function clean_str($dataIn){
+
         $ds = str_replace('"', '', $dataIn);
         $ds = str_replace(' ', '', $ds);
 
         return $ds;
     }
 
-    protected function get_termResults_data_rest($entityID, $termID, $FYFQ) {
+    protected function myUrlEncode($string) {
 
-        $fyfq = $this->clean_str($FYFQ, '"');
-        $entityIDs = $this->clean_str($entityID);
-        $termIDs = $this->clean_str($termID);
+            $entities = array('+', '%21', '%2A', '%27', '%28', '%29', '%3B', '%3A', '%40', '%26', '%3D', '%2B', '%24', '%2C', '%2F', '%3F', '%25', '%23', '%5B', '%5D', ',');
+            $replacements = array('%20' ,'!', '*', "'", "(", ")", ";", ":", "@", "&amp;", "=", "+", "$", ",", "/", "?", "%", "#", "[", "]", "%2C");
+            return str_replace($entities, $replacements, urlencode($string));
 
-        $this->url = REST_API_TERM_RESULTS_BY_ENTITY_ID;
-        $this->url = str_replace('{0}', IDACITI_TOKEN, $this->url);
-        $this->url = str_replace('{1}', $entityIDs, $this->url);
-        $this->url = str_replace('{2}', $termIDs, $this->url);
-        $this->url = str_replace('{3}', $fyfq, $this->url);
+    }
 
-        log_message('debug', 'Api_model-get_termResults_data_rest url: ' . $this->url);
+    public function get_term_rules() {
 
-        if ($this->config->item('use_cache') === TRUE) {
-            log_message('debug', 'Api_model-get_termResults_data_rest: using cached copy');
-            $result = $this->session->userdata($this->url);
-        }
+        //$this->clean_str();
 
-        if (!isset($result) || empty($result)) {
-            $this->benchmark->mark('Api_model-get_termResults_data_rest_start');
+        $this->url = REST_API_TERM_RULES;
+        $this->url = str_replace('{0}', API_TOKEN, $this->url);
 
-            $_mycurl = new  mycurl($this->url);
-            $_mycurl->useAuth(false);
-            $_mycurl->createCurl();
-            $result = (string)$_mycurl;
+        log_message('debug', 'Api_model-drilldown url: ' . $this->url);
 
-            if ($this->config->item('use_cache') === TRUE ) {
-                $this->session->set_userdata($this->url, $result);
-            }
+        // no cache on drilldown
 
-            $this->benchmark->mark('Api_model-get_termResults_data_rest_end');
-            log_message('debug', 'Api_model-get_termResults_data_rest: ' . $this->benchmark->elapsed_time('Api_model-get_termResults_data_rest_start', 'Api_model-get_termResults_data_rest_end'));
-        }
+        $this->benchmark->mark('Api_model-drilldown_start');
+
+        $_mycurl = new  mycurl($this->url);
+        $_mycurl->useAuth(false);
+        $_mycurl->createCurl();
+        $result = (string)$_mycurl;
 
         $result = json_decode($result, true);
+
+        // echo "<pre>";
+
+        // print_r($result);
+
+        // exit;
+
+        $this->benchmark->mark('Api_model-drilldown_end');
+
+        log_message('debug', 'Api_model-drilldown: ' . $this->benchmark->elapsed_time('Api_model-drilldown_start', 'Api_model-drilldown_end'));
 
         return $result;
     }
 
-    public function get_termResults_drilldown($entityID, $termID, $FYFQ) {
+    public function get_term_rule($term_id) {
 
-        $entityIDs = $this->clean_str($entityID);
+        //$this->clean_str();
 
-        $this->url = REST_API_TERM_RESULTS_DRILLDOWN;
-        $this->url = str_replace('{0}', IDACITI_TOKEN, $this->url);
-        $this->url = str_replace('{1}', $entityIDs, $this->url);
-        $this->url = str_replace('{2}', $termID, $this->url);
-        $this->url = str_replace('{3}', $FYFQ, $this->url);
+        $this->url = REST_API_TERM_RULE;
+        $this->url = str_replace('{0}', API_TOKEN, $this->url);
+        $this->url = str_replace('{1}', $term_id, $this->url);
 
         log_message('debug', 'Api_model-drilldown url: ' . $this->url);
 
@@ -93,91 +90,80 @@ class Api_model extends CI_Model {
         $this->benchmark->mark('Api_model-drilldown_end');
 
         log_message('debug', 'Api_model-drilldown: ' . $this->benchmark->elapsed_time('Api_model-drilldown_start', 'Api_model-drilldown_end'));
-        //log_message('debug', 'Api_model-php: json_decode: ' . print_r($result, true));
 
-        /* no cache on drilldown
-        if ($this->config->item('use_cache') === TRUE && !empty($result)) {
-            $this->session->set_userdata($cacheKey, $result);
+        return $result;
+    }
+
+    public function get_term_rule_coverge($term_id) {
+
+        //$this->clean_str();
+
+        $this->url = REST_API_TERM_RULE_COVERAGE;
+        $this->url = str_replace('{0}', API_TOKEN, $this->url);
+        $this->url = str_replace('{1}', $term_id, $this->url);
+
+        log_message('debug', 'Api_model-drilldown url: ' . $this->url);
+
+        // no cache on drilldown
+
+        $this->benchmark->mark('Api_model-drilldown_start');
+
+        $_mycurl = new  mycurl($this->url);
+        $_mycurl->useAuth(false);
+        $_mycurl->createCurl();
+        $result = (string)$_mycurl;
+
+        $result = json_decode($result, true);
+
+        $this->benchmark->mark('Api_model-drilldown_end');
+
+        log_message('debug', 'Api_model-drilldown: ' . $this->benchmark->elapsed_time('Api_model-drilldown_start', 'Api_model-drilldown_end'));
+
+        return $result;
+    }
+
+    public function get_term_rule_coverage_sector_industry() {
+
+        $term_id = trim($this->input->post('term_id'));
+
+        if(strpos($this->input->post('sector'), '&') == true)
+        {
+
+            $sector = trim($this->myUrlEncode('"'.$this->input->post('sector').'"'));
         }
-    */
+        else
+        {   
 
-        return $result;
-    }
+            $sector = trim($this->myUrlEncode($this->input->post('sector')));
+        
+        } 
 
-    public function get_trending_benchmark_data($entityID, $peerEntities, $term, $calc_type, $FYFQ)
-    {
-        $this->benchmark->mark('Api_model-get_trending_benchmark_data_start');
+        if(strpos($this->input->post('industry'), '&') == true)
+        {
 
-        //$this->url = 'http://data.idaciti.com:81/api/benchmark/trending/json?token=oepsy3b6&benchmarkEntity='.$entityID.'&peerEntities='.$peerEntities.'&term='.$term.'&calcType='.$calc_type.'&periods='.$FYFQ;
-
-        $this->url = REST_API_BENCHMARK_TRENDING;
-        $this->url = str_replace('{0}', IDACITI_TOKEN, $this->url);
-        $this->url = str_replace('{1}', $entityID, $this->url);
-        $this->url = str_replace('{2}', $peerEntities, $this->url);
-        $this->url = str_replace('{3}', $term, $this->url);
-        $this->url = str_replace('{4}', $calc_type, $this->url);
-        $this->url = str_replace('{5}', $FYFQ, $this->url);
-
-        $_mycurl = new  mycurl($this->url);
-        $_mycurl->useAuth(false);
-        $_mycurl->createCurl();
-        $result = (string)$_mycurl;
-
-        $result = json_decode($result, true);
-
-        $this->benchmark->mark('Api_model-get_trending_benchmark_data_end');
-
-        return $result;
-    }
-
-    public function get_commonSize_benchmark_data($entityID, $peerEntities, $reportType, $calc_type, $period )
-    {
-        $this->benchmark->mark('Api_model-get_commonSize_benchmark_data_start');
-
-        //$this->url ='http://data.idaciti.com:81/api/benchmark/commonSize/json?token=oepsy3b6&benchmarkEntity='.$entityID.'&peerEntities='.$peerEntities.'&reportType='.$reportType.'&calcType='.$calc_type.'&period='.$period;
-
-        $this->url = REST_API_BENCHMARK_COMMONSIZE;
-        $this->url = str_replace('{0}', IDACITI_TOKEN, $this->url);
-        $this->url = str_replace('{1}', $entityID, $this->url);
-        $this->url = str_replace('{2}', $peerEntities, $this->url);
-        $this->url = str_replace('{3}', $reportType, $this->url);
-        $this->url = str_replace('{4}', $calc_type, $this->url);
-        $this->url = str_replace('{5}', $period, $this->url);
-
-        $_mycurl = new  mycurl($this->url);
-        $_mycurl->useAuth(false);
-        $_mycurl->createCurl();
-        $result = (string)$_mycurl;
-
-        $result = json_decode($result, true);
-
-        $this->benchmark->mark('Api_model-get_commonSize_benchmark_data_end');
-
-        return $result;
-    }
-
-    public function get_scatterPlot_benchmark_data($entityID, $includePeer, $peerEntities, $active_xaxes, $active_yaxes, $period )
-    {
-        $this->benchmark->mark('Api_model-get_scatterPlot_benchmark_data_start');
-
-        if ($includePeer === true) {
-            //$this->url ='http://data.idaciti.com:81/api/benchmark/scatterPlot/json?token=oepsy3b6&benchmarkEntity='.$entityID.'&includeAllPeers=true&xAxisTermId='.$active_xaxes.'&yAxisTermId='.$active_yaxes.'&period='.$period;
-            $this->url = REST_API_BENCHMARK_SCATTERPLOT_INCLUDEALLPEERS;
-            $this->url = str_replace('{2}', 'true', $this->url);
-
+            $industry = trim($this->myUrlEncode('"'.$this->input->post('industry').'"'));
         }
-        else {
-            //$this->url ='http://data.idaciti.com:81/api/benchmark/scatterPlot/json?token=oepsy3b6&benchmarkEntity='.$entityID.'&peerEntities='.$peerEntities.'&xAxisTermId='.$active_xaxes.'&yAxisTermId='.$active_yaxes.'&period='.$period;
-            $this->url = REST_API_BENCHMARK_SCATTERPLOT_PEERLIST;
-            $this->url = str_replace('{2}', $peerEntities, $this->url);
-        }
+        else
+        {   
 
-        $this->url = str_replace('{0}', IDACITI_TOKEN, $this->url);
-        $this->url = str_replace('{1}', $entityID, $this->url);
-        // 2 taken care of above
-        $this->url = str_replace('{3}', $active_xaxes, $this->url);
-        $this->url = str_replace('{4}', $active_yaxes, $this->url);
-        $this->url = str_replace('{5}', $period, $this->url);
+            $industry = trim($this->myUrlEncode($this->input->post('industry')));
+        
+        }  
+
+        $sic_code = trim($this->input->post('sic_code'));         
+
+        $this->url = REST_API_TERM_RULE_COVERAGE_SECTOR_INDUSTRY;
+        $this->url = str_replace('{0}', API_TOKEN, $this->url);
+        $this->url = str_replace('{1}', $term_id, $this->url);
+        $this->url = str_replace('{2}', $sector, $this->url);
+        $this->url = str_replace('{3}', $industry, $this->url);
+        $this->url = str_replace('{4}', $sic_code, $this->url);
+
+        log_message('debug', 'Api_model-drilldown url: ' . $this->url);
+
+        // no cache on drilldown
+
+        $this->benchmark->mark('Api_model-drilldown_start');
 
         $_mycurl = new  mycurl($this->url);
         $_mycurl->useAuth(false);
@@ -186,56 +172,39 @@ class Api_model extends CI_Model {
 
         $result = json_decode($result, true);
 
-        $this->benchmark->mark('Api_model-get_scatterPlot_benchmark_data_end');
+        $this->benchmark->mark('Api_model-drilldown_end');
+
+        log_message('debug', 'Api_model-drilldown: ' . $this->benchmark->elapsed_time('Api_model-drilldown_start', 'Api_model-drilldown_end'));
 
         return $result;
     }
 
-    public function get_entity_data()
-    {
-        $this->url = REST_API_ENTITY;
-        $this->url = str_replace('{0}', IDACITI_TOKEN, $this->url);
+    public function get_view_term_rule($entity_id, $term_id) {
 
-        log_message('debug', 'Api_model-get_companies_data url: ' . $this->url);
+        $this->url = REST_API_VIEW_TERM_RULE;
+        $this->url = str_replace('{0}', API_TOKEN, $this->url);
+        $this->url = str_replace('{1}', $entity_id, $this->url);
+        $this->url = str_replace('{2}', $term_id, $this->url);        
 
-        $this->benchmark->mark('Api_model-get_companies_data_start');
+        log_message('debug', 'Api_model-drilldown url: ' . $this->url);
+
+        // no cache on drilldown
+
+        $this->benchmark->mark('Api_model-drilldown_start');
 
         $_mycurl = new  mycurl($this->url);
         $_mycurl->useAuth(false);
         $_mycurl->createCurl();
         $result = (string)$_mycurl;
 
-        $this->benchmark->mark('Api_model-get_companies_data_end');
-
-        log_message('debug', 'Api_model-get_companies_data: ' . $this->benchmark->elapsed_time('Api_model-get_companies_data_start', 'Api_model-get_companies_data_end'));
-
         $result = json_decode($result, true);
 
-        return $result;
-    }
+        $this->benchmark->mark('Api_model-drilldown_end');
 
-    public function get_kpi_data()
-    {
-        $this->url = REST_API_TERM_RULE;
-        $this->url = str_replace('{0}', IDACITI_TOKEN, $this->url);
-
-        log_message('debug', 'Api_model-get_kpi_data url: ' . $this->url);
-
-        $this->benchmark->mark('Api_model-get_kpi_data_start');
-
-        $_mycurl = new  mycurl($this->url);
-        $_mycurl->useAuth(false);
-        $_mycurl->createCurl();
-        $result = (string)$_mycurl;
-
-        $this->benchmark->mark('Api_model-get_kpi_data_end');
-
-        log_message('debug', 'Api_model-get_kpi_data: ' . $this->benchmark->elapsed_time('Api_model-get_kpi_data_start', 'Api_model-get_kpi_data_end'));
-
-        $result = json_decode($result, true);
+        log_message('debug', 'Api_model-drilldown: ' . $this->benchmark->elapsed_time('Api_model-drilldown_start', 'Api_model-drilldown_end'));
 
         return $result;
+    }            
 
-    }
 }
 

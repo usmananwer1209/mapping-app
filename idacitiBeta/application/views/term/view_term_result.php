@@ -44,15 +44,15 @@
          
 			<div class="content">
 			
-				<div class="col-md-12 col-sm-12 itacidi-new-right-panel">
-					<div class="row itacidi-new-right-panel-section-1">
+				<div class="col-md-12 col-sm-12 project-new-right-panel">
+					<div class="row project-new-right-panel-section-1">
 						<div class="col-md-4  col-sm-4 ">
 							<h1>Term Rule & Expression</h1>	
 						</div>
 						
 					</div>
                     
-					<div class="row itacidi-new-right-panel-section-2">
+					<div class="row project-new-right-panel-section-2">
                  
 						<div class="col-md-5  col-sm-12">
 								<div class="left form-group custom-form-group">
@@ -76,15 +76,15 @@
 									</div>
 								</div>
 						</div>
-                        <div class="col-md-3 col-sm-6 idaciti-custom-padd">
+                        <div class="col-md-3 col-sm-6 pro-custom-padd">
 							<div id="range_03"></div>
 						</div>
                         
-						<div class="col-md-8 col-sm-12 itacidi-new-right-panel-section-4">
+						<div class="col-md-8 col-sm-12 project-new-right-panel-section-4">
                         
-							<form class="itacidi-custom-form">
+							<form class="project-custom-form">
 							   <div class="table-responsive">
-									<table class="table table-bordered table-striped table-hover idaciti-table"> 
+									<table class="table table-bordered table-striped table-hover pro-table"> 
 										
 										<thead>
 											<tr>
@@ -109,7 +109,7 @@
             <tr 
 	        	<?php
 
-	        		echo "class='".$v_t_r['FY']." ";
+	        		echo "class='active ".$v_t_r['FY']." ";
 
 		        	if($v_t_r['resolvedExpression'] == '' && $v_t_r['value'] == '0') 
 		        	{
@@ -191,7 +191,7 @@
 							</div>
 						  </div>
                   
-							 <div class="col-md-4 col-sm-6 itacidi-new-right-panel-section-3">
+							 <div class="col-md-4 col-sm-6 project-new-right-panel-section-3">
 
 								<div id="view_rule_annual_container">
 								</div>

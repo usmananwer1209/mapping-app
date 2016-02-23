@@ -8,7 +8,7 @@ class Profile extends abstract_controller {
 	public function __construct(){
     	parent::__construct();
     	$this->load->model('users_model', 'users');
-		  $this->load->model('cards_model', 'cards');
+    	$this->load->model('user_circles_model'); 	
         $this->load->model('circles_model', 'circles');
 		}
 
@@ -149,11 +149,6 @@ class Profile extends abstract_controller {
 							"status"=>user_circle_status::request_reject,
 							"user"=>$obj['id']);
 					$obj['circle_reject'] = count($this->user_circles_model->list_records($where));
-
-
-					$where = array("user"=>$obj['id']);
-					$obj['cards'] = count($this->cards->list_records($where));
-
 
 					
 					$obj = (object)$obj;

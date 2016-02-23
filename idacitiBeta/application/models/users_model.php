@@ -120,18 +120,4 @@ class Users_model extends Abstract_model {
         }
     }
 
-    public function list_cards($user_id) {
-        $sql = "select c.* from card c  inner join user u on u.id = c.user where u.id =  $user_id ORDER BY c.creation_time DESC";
-        $query = $this->db->query($sql);
-        $result = $query->result_array();
-        return $result;
-    }
-
-    public function list_storyboards($user_id) {
-        $sql = "select s.* from storyboard s inner join user u on u.id = s.user where u.id =  $user_id ORDER BY s.creation_time DESC";
-        $query = $this->db->query($sql);
-        $result = $query->result_array();
-        return $result;
-    }
-
 }

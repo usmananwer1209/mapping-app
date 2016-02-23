@@ -35,11 +35,6 @@
 			<span class="sort desc" data-sort="data-country" data-order="desc"></span>
 		</div>
 		<?php if($user->is_root == 1){?>
-		<div class="meta cards">
-			Cards
-			<span class="sort asc active" data-sort="data-cards" data-order="asc"></span>
-			<span class="sort desc" data-sort="data-cards" data-order="desc"></span>
-		</div>
 		<div class="meta circles">
 			Circles
 			<span class="sort asc active" data-sort="data-circles" data-order="asc"></span>
@@ -67,7 +62,6 @@
 				data-company="<?php echo $obj->organization; ?>"
 				data-country="<?php echo $obj->country; ?>"
 				data-last="<?php echo $obj->last_name; ?>" 
-				data-cards="<?php echo $obj->cards; ?>"
 				data-circles="<?php echo $obj->circle_accept; ?>"
 				data-pending="<?php echo $obj->circle_wait; ?>"
                 data-user-id="<?php echo $obj->id; ?>"
@@ -133,15 +127,6 @@
 			</div>
 
 			<?php if($user->is_root == 1){?>
-			<div class="meta cards">
-				<p>
-			        <?php if($obj->cards > 0){ ?> 
-					<em>
-						<code class="text-info"><?php echo $obj->cards; ?> cards</code><br/>
-			        </em>
-			        <?php } ?>
-		        </p>
-			</div>
 			<div class="meta circles">
 				<p>
 					<?php if($obj->circle_accept > 0){ ?>

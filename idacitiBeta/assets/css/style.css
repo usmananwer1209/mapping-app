@@ -2274,7 +2274,8 @@ display:none;
 .page-content {  
   margin-top: 0px;   
   padding: 0px;
-  background-color: #e5e9ec; 
+  /* background-color: #e5e9ec;  */
+  background-color: #fff; 
   overflow:auto; 
   position:relative;
   min-height:911px;
@@ -8719,77 +8720,68 @@ label.css-label {
 	/*====== Left side =====*/
 	
 	
-	.custom-idaciti-row {
+	.custom-pro-row {
 		display: block;
 		height: 100%;
 		margin-left: 0;
 		margin-right: 0;
 	}
 	
-	.itacidi-new-left-panel {
+	.project-new-left-panel {
 		background:#3f4040;
 		padding:10px 0px;
-/*		display: block;
+		/* display: block;
 		height: 1030px;
 		min-height: 1030px;
-		overflow-y: scroll !important;*/
+		overflow-y: scroll !important; */
 	}
 	
 	
 	
-	.itacidi-new-left-panel::-webkit-scrollbar {
-		width: 5px;
+	.project-new-left-panel::-webkit-scrollbar {
+		width: 10px;
 	}
 	
-	.itacidi-new-left-panel::-webkit-scrollbar-track {
+	.project-new-left-panel::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	}
 
-	.itacidi-new-left-panel::-webkit-scrollbar-thumb {
-	  /*background-color: #1e1f1f;
-	  outline: 1px solid #1e1f1f;*/
-	   background: #a1b2bd none repeat scroll 0 0;
-    border-radius: 7px;
-    height: 250px;
-    opacity: 0.4;
-    position: absolute;
-    right: 1px;
-    top: 0;
-    width: 4px;
-    z-index: 99;
+	.project-new-left-panel::-webkit-scrollbar-thumb {
+	  background-color: #1e1f1f;
+	  outline: 1px solid #1e1f1f;
 	}
 	
 	
-	.itacidi-new-left-panel .cutom-form-group input[type="text"]{
+	.project-new-left-panel .cutom-form-group input[type="text"]{
 		background: #3f4040 none repeat scroll 0 0;
 		color: #fff;
 	}
 	
-	.itacidi-new-left-panel .cutom-form-group .form-control::-moz-placeholder {
+	.project-new-left-panel .cutom-form-group .form-control::-moz-placeholder {
 		color: #fff!important;
 		opacity:1 ;
 	}
 	
-	.itacidi-new-left-panel .cutom-form-group .form-control::-webkit-input-placeholder {
+	.project-new-left-panel .cutom-form-group .form-control::-webkit-input-placeholder {
 		color: #fff;
 	}
 	
-	.itacidi-new-left-panel .cutom-form-group .form-control::-ms-input-placeholder {
+	.project-new-left-panel .cutom-form-group .form-control::-ms-input-placeholder {
 		color: #fff;
 	}
 
 	
-	.itacidi-new-left-panel .itacidi-new-left-panel-radio {
+	.project-new-left-panel .project-new-left-panel-radio {
 		float: left;
 		margin-top: 40px;
 	}
 	
 	
-	.itacidi-new-left-panel .itacidi-new-left-panel-radio label {
+	.project-new-left-panel .project-new-left-panel-radio label {
 		color: #fff!important;
 	}
 	
-	.itacidi-new-left-panel .itacidi-new-left-panel-radio .custom-btn {
+	.project-new-left-panel .project-new-left-panel-radio .custom-btn {
 		background: #be5b28 none repeat scroll 0 0;
 		color: #fff;
 		margin-top: 40px;
@@ -8798,16 +8790,16 @@ label.css-label {
 		padding:4px 10px;
 	}
 	
-	.itacidi-new-left-panel .itacidi-new-left-panel-panels {
+	.project-new-left-panel .project-new-left-panel-panels {
 		float: left;
 		margin-top: 5px;
 	}
 	
-	.itacidi-new-left-panel .itacidi-new-left-panel-panels .panel-default {
+	.project-new-left-panel .project-new-left-panel-panels .panel-default {
 		margin-bottom: 0px;
 	}
 	
-	.itacidi-new-left-panel .itacidi-new-left-panel-panels .panel-default .panel-heading {
+	.project-new-left-panel .project-new-left-panel-panels .panel-default .panel-heading {
 		background:transparent;
 		border:0px;
 		color:#fff;
@@ -8817,51 +8809,51 @@ label.css-label {
 		margin-left:-15px;
 	}
 	
-	.itacidi-new-left-panel .itacidi-new-left-panel-panels .panel-default .panel-heading .fa-custom {
-		background-image: url("http://192.168.1.200/projects/idacitiBeta/assets/img/arrow.png") !important;
+	.project-new-left-panel .project-new-left-panel-panels .panel-default .panel-heading .fa-custom {
+		background-image: url("http://192.168.1.200/projects/proBeta/assets/img/arrow.png") !important;
 	}
 	
-	.itacidi-new-left-panel .itacidi-new-left-panel-panels .custom-left-collapse p {
+	.project-new-left-panel .project-new-left-panel-panels .custom-left-collapse p {
 		color:#fff;
 		font-size: 15px;
 	}
 	
-	.itacidi-new-left-panel .itacidi-new-left-panel-panels .custom-left-collapse ul {
+	.project-new-left-panel .project-new-left-panel-panels .custom-left-collapse ul {
 		padding-left:40px;
 	}
 	
-	.itacidi-new-left-panel .itacidi-new-left-panel-panels .custom-left-collapse ul li {
+	.project-new-left-panel .project-new-left-panel-panels .custom-left-collapse ul li {
 		list-style:none;
 		padding:5px 0px;
 	}
 	
-	.itacidi-new-left-panel .itacidi-new-left-panel-panels .custom-left-collapse ul li a {
+	.project-new-left-panel .project-new-left-panel-panels .custom-left-collapse ul li a {
 		color:#fff;
 		font-size: 12px;
 	}
 	
-	.itacidi-new-left-panel .itacidi-new-left-panel-panels .custom-left-collapse ul li a .fa {
+	.project-new-left-panel .project-new-left-panel-panels .custom-left-collapse ul li a .fa {
 		padding-right:8px;
 	}
 	
 	/*====== Right side =====*/
 		
-	.itacidi-new-right-panel {
+	.project-new-right-panel {
 		
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-1 {
+	.project-new-right-panel .project-new-right-panel-section-1 {
 		background:#375729;
 		padding: 2px 0;
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-1 h1 {
+	.project-new-right-panel .project-new-right-panel-section-1 h1 {
 		color:#fff;
 		font-size: 20px;
 		margin: 0;	
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-1 .custom-btn {
+	.project-new-right-panel .project-new-right-panel-section-1 .custom-btn {
 		background: #be5b28 none repeat scroll 0 0;
 		color: #fff;
 		margin-top: 7px;
@@ -8869,43 +8861,43 @@ label.css-label {
 		position: relative;
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-2 {
+	.project-new-right-panel .project-new-right-panel-section-2 {
 		background:#fff ;
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-2 .itacidi-custom-form {
+	.project-new-right-panel .project-new-right-panel-section-2 .project-custom-form {
 		margin-top:35px;
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-2 
-	.itacidi-custom-form .form-group {
+	.project-new-right-panel .project-new-right-panel-section-2 
+	.project-custom-form .form-group {
 		float: left;
 		margin: 3px 0;
 		width: 100%;
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-2 
-	.itacidi-custom-form .form-group label {
+	.project-new-right-panel .project-new-right-panel-section-2 
+	.project-custom-form .form-group label {
 		/* white-space: nowrap; */
 		font-size: 12px;
 		color: #434444;
 		
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-2 
-	.itacidi-custom-form .form-group input[type="text"] {
+	.project-new-right-panel .project-new-right-panel-section-2 
+	.project-custom-form .form-group input[type="text"] {
 		border: 1px solid #c8c6c5;
 		border-radius: 3px;
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-2 
-	.itacidi-custom-form .form-group textarea {
+	.project-new-right-panel .project-new-right-panel-section-2 
+	.project-custom-form .form-group textarea {
 		border: 1px solid #c8c6c5;
 		border-radius: 3px;
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-2 
-	.itacidi-custom-form .custom-form-group select {
+	.project-new-right-panel .project-new-right-panel-section-2 
+	.project-custom-form .custom-form-group select {
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		appearance: none;
@@ -8920,39 +8912,39 @@ label.css-label {
 		border-radius: 3px;
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-2 
-	.itacidi-custom-form .custom-form-group select::-ms-expand {
+	.project-new-right-panel .project-new-right-panel-section-2 
+	.project-custom-form .custom-form-group select::-ms-expand {
 		display: none;
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-2 
-	.itacidi-custom-form .custom-form-group .custom-form-control {
-		background-image: url("http://192.168.1.200/projects/idacitiBeta/assets/img/Untitled-2.png") !important;
+	.project-new-right-panel .project-new-right-panel-section-2 
+	.project-custom-form .custom-form-group .custom-form-control {
+		background-image: url("http://192.168.1.200/projects/proBeta/assets/img/Untitled-2.png") !important;
 		background-position: 98% 50% !important;
 		background-repeat: no-repeat !important;
 		overflow: hidden !important;
 	}
 	
-	.itacidi-new-right-panel-section-3 {
+	.project-new-right-panel-section-3 {
 		margin-top:15px;
 		padding-right: 0px;
 	}
 	
-	.itacidi-new-right-panel-section-table-custom {
+	.project-new-right-panel-section-table-custom {
 		padding-right: 30px;
 	}
 	
-	.itacidi-new-right-panel-section-3 .btn-section  {
+	.project-new-right-panel-section-3 .btn-section  {
 		margin-right: 0;
 	}
 	
-	.itacidi-new-right-panel-section-3 .btn-section .custom-btn {
+	.project-new-right-panel-section-3 .btn-section .custom-btn {
 		background: #1c3763 none repeat scroll 0 0;
 		color: #fff;
 		position: relative;
 	}
 	
-	.itacidi-new-right-panel-section-3 .btn-section .custom-btn-2 {
+	.project-new-right-panel-section-3 .btn-section .custom-btn-2 {
 		background: #be5b28 none repeat scroll 0 0;
 		color: #fff;
 		font-size: 12px;
@@ -8972,37 +8964,37 @@ label.css-label {
 		white-space: normal;
 	}
 	
-	.itacidi-new-right-panel-section-3 .table-section {
+	.project-new-right-panel-section-3 .table-section {
 		margin-top:15px;
 		margin-right: -15px;
 	}
 	
-	.itacidi-new-right-panel-section-3 .table-section .table-bordered {
+	.project-new-right-panel-section-3 .table-section .table-bordered {
 		border-color: #b9b9b9 !important;
 		border: 1px solid #b9b9b9!important;
 	}
 	
-	.itacidi-new-right-panel-section-3 .table-section .table-bordered td {
+	.project-new-right-panel-section-3 .table-section .table-bordered td {
 		
 	}
 	
-	.itacidi-new-right-panel-section-3 .table-section thead > tr > th {
+	.project-new-right-panel-section-3 .table-section thead > tr > th {
 		border: 1px solid #b9b9b9!important;
 		text-transform:none !important;
 		background:#fff !important;
 	}
 	
-	.itacidi-new-right-panel-section-3 .table-section tbody > tr > td {
+	.project-new-right-panel-section-3 .table-section tbody > tr > td {
 		border: 1px solid #b9b9b9!important;
 	}
 	
-	.itacidi-new-right-panel-section-3 .table-section tbody > tr > .table-text {
+	.project-new-right-panel-section-3 .table-section tbody > tr > .table-text {
 		color:#BE5B28;
 		text-transform:uppercase;
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-3 
-	.itacidi-custom-form-2 .custom-form-group select {
+	.project-new-right-panel .project-new-right-panel-section-3 
+	.project-custom-form-2 .custom-form-group select {
 		-webkit-appearance: none;
 		-moz-appearance: none;
 		appearance: none;
@@ -9016,14 +9008,14 @@ label.css-label {
 
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-3 
-	.itacidi-custom-form-2 .custom-form-group select::-ms-expand {
+	.project-new-right-panel .project-new-right-panel-section-3 
+	.project-custom-form-2 .custom-form-group select::-ms-expand {
 		display: none;
 	}
 	
-	.itacidi-new-right-panel .itacidi-new-right-panel-section-3 
-	.itacidi-custom-form-2 .custom-form-group .custom-form-control {
-		background-image: url("http://192.168.1.200/projects/idacitiBeta/assets/img/Untitled-2.png") !important;
+	.project-new-right-panel .project-new-right-panel-section-3 
+	.project-custom-form-2 .custom-form-group .custom-form-control {
+		background-image: url("http://192.168.1.200/projects/proBeta/assets/img/Untitled-2.png") !important;
 		background-position: 98% 50% !important;
 		background-repeat: no-repeat !important;
 		overflow: hidden !important;
@@ -9051,7 +9043,7 @@ label.css-label {
 	}
 	
 	.radio label {
-	  display: block;
+	  display: inline-block;
 	  cursor: pointer;
 	  position: relative;
 	  padding-left: 25px;
@@ -9308,11 +9300,11 @@ label.css-label {
 	
 	@media screen and (max-width:992px) {
 	
-		.itacidi-new-left-panel {
+		.project-new-left-panel {
 			height:auto;
 		}
 		
-		.itacidi-new-left-panel .itacidi-new-left-panel-radio .custom-btn {
+		.project-new-left-panel .project-new-left-panel-radio .custom-btn {
 			margin-top:0px;
 		}
 		
@@ -9320,20 +9312,20 @@ label.css-label {
 			height:auto !important;
 		}
 		
-		.itacidi-new-right-panel-section-3 .btn-section .custom-btn-2 {
+		.project-new-right-panel-section-3 .btn-section .custom-btn-2 {
 			width: 100%;
 			padding: 15px 5px;
 		}
 		
-		.itacidi-new-right-panel-section-3 .btn-section .custom-btn {
+		.project-new-right-panel-section-3 .btn-section .custom-btn {
 			margin:10px 0px;
 		}
 	
-		.itacidi-new-right-panel-section-3 .btn-section {
+		.project-new-right-panel-section-3 .btn-section {
 			margin-left:15px;
 		}
 	
-		.itacidi-new-right-panel {
+		.project-new-right-panel {
 			margin-top: 10px;
 		}
 	
@@ -9342,36 +9334,36 @@ label.css-label {
 	
 	@media screen and (max-width:1350px) {
 		
-		.itacidi-new-right-panel-section-3, 
-		.itacidi-new-right-panel-section-4, 
+		.project-new-right-panel-section-3, 
+		.project-new-right-panel-section-4, 
 		.itacid-piechart	{
 			width: 100%;
 			margin: 0 auto;
 			
 		}
 		
-		.itacidi-new-left-panel {
+		/* .project-new-left-panel {
 			
-/*			min-height: 1600px;*/
-		}
+			min-height: 1600px;
+		} */
 		
-		.itacidi-new-right-panel-section-3 {
+		.project-new-right-panel-section-3 {
 			padding: 0 30px;
 		}
 		
-		.itacidi-new-right-panel-section-3 .btn-section {
+		.project-new-right-panel-section-3 .btn-section {
 			padding:10px 0px;
 		}
 		
-		.itacidi-new-right-panel-section-3 .btn-section .custom-btn-2 {
+		.project-new-right-panel-section-3 .btn-section .custom-btn-2 {
 			padding: 10px 8px;
 		}
 		
-		.itacidi-new-left-panel-radio-custom-ww {
+		.project-new-left-panel-radio-custom-ww {
 			width:100%;
 		}
 		
-		.itacidi-new-left-panel .itacidi-new-left-panel-radio .custom-btn {
+		.project-new-left-panel .project-new-left-panel-radio .custom-btn {
 			margin-top:0px;
 			float:none;	
 		}
@@ -9381,16 +9373,16 @@ label.css-label {
 	@media screen and (max-width:992px) {
 		
 		
-		.itacidi-new-right-panel-section-3 .table-section {
+		.project-new-right-panel-section-3 .table-section {
 			margin-left: 0;
 			margin-right: 0;
 		}
 		
-		.itacidi-new-left-panel {
+		.project-new-left-panel {
 			height:auto;
 		}
 		
-		.itacidi-new-right-panel-section-3 {
+		.project-new-right-panel-section-3 {
 			padding: 0 15px;
 		}
 		
@@ -9402,7 +9394,7 @@ label.css-label {
 	
 	@media screen and (max-width:767px) {
 		
-		.itacidi-new-right-panel-section-3 .btn-section .custom-btn-2 {
+		.project-new-right-panel-section-3 .btn-section .custom-btn-2 {
 			margin:10px 0px;
 		}
 		
@@ -9418,7 +9410,7 @@ label.css-label {
 		
 	/*================= Page 2 ====================*/
 	
-	.idaciti-table thead tr th {
+	.pro-table thead tr th {
 		background:#fff;
 	}
 	
@@ -9427,8 +9419,8 @@ label.css-label {
 		margin-bottom:0px;
 	}
 	
-	.idaciti-custom-padd {
-		padding-top: 20px;
+	.pro-custom-padd {
+		padding-top: 0px;
 	}
 	
 	.connect > span {
@@ -9436,8 +9428,147 @@ label.css-label {
 		width: 25%;
 	}
 	
+	.custom-form-control-1 {
+		background: #fff3ca none repeat scroll 0 0;
+		border: 1px solid #c8c6c5;
+		color:#8d8b8a;
+	}
+	
+	.custom-form-control-1:focus {
+		background: #fff3ca none repeat scroll 0 0;
+		border: 1px solid #c8c6c5;
+		color:#8d8b8a;
+	}
+	
+	.custom-form-control-2 {
+		background: #fff none repeat scroll 0 0;
+		border: 1px solid #c8c6c5;
+		color:#8d8b8a;
+	}
+	
+	.custom-form-control-2:focus {
+		background: #fff none repeat scroll 0 0;
+		border: 1px solid #c8c6c5;
+		color:#8d8b8a;
+	}
+	
+	.pro-custom-padd-1 {
+		margin-top: 35px;
+	}
+	
+	.pro-custom-padd-2 {
+		padding-bottom:30px;
+	}
+	
+	.pro-custom-padd-3 {
+		padding: 0 30px;
+	}
+	
+	.project-custom-panel {
+		border:2px solid #c8c6c5;
+		margin-bottom: 35px;
+		padding: 0 15px;
+		
+		
+	}
+	
+	.project-custom-panel-head {
+		background: #375729 none repeat scroll 0 0;
+		padding:2px 0px;
+	}
+	
+	.project-custom-panel-head h1 {
+		color: #fff;
+		font-size: 20px;
+		margin: 0;
+	}
+	
+	.custom-btn {
+		background: #be5b28 none repeat scroll 0 0;
+		color: #fff;
+		margin-top: 7px;
+		padding: 4px 18px;
+		position: relative;
+	}
+	
+	.custom-btn:focus, 
+	.custom-btn:hover {
+		background: #be5b28 none repeat scroll 0 0;
+		color: #fff;
+	}
+	
+	.custom-btn-big {
+		background: #be5b28 none repeat scroll 0 0;
+		color: #fff;
+		margin-top: 7px;
+		padding: 10px 60px;
+		position: relative;
+	}
+	
+	.custom-btn-big:focus, 
+	.custom-btn-big:hover {
+		background: #be5b28 none repeat scroll 0 0;
+		color: #fff;
+	}
+	
+	.fa-hand-o-right {
+		margin-right:5px;
+	}
+	
+	.custom-btn-green {
+		background: #375729 none repeat scroll 0 0;
+		border-radius: 8px;
+		color: #fff;
+		margin-top: 7px;
+		padding: 10px 18px;
+		position: relative;
+	}
+	
+	.custom-btn-green:focus, 
+	.custom-btn-green:hover {
+		background: #375729 none repeat scroll 0 0;
+		color: #fff;
+	}
+	
+	.project-custom-form-1 {
+		margin-top:35px;
+	}
+	
+	.custom-form-row {
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:5px;
+		margin-bottom:5px;
+	}
+	
+	
+	@media screen and (max-width:1350px) {
+		
+		.pro-custom-width-1 {
+			width:85% !important;
+		}
+		
+	}
+	
+	
+	@media screen and (max-width:992px) {
+		
+		.pro-custom-width-1 {
+			width:100% !important;
+		}
+		
+	}
+	
+	@media screen and (max-width:535px) {
+		
+		.custom-btn-big {
+			font-size: 12px;
+			width: 88%;
+		}
+		
+	}
+	
 	/*================= New Css ====================*/
-
 
 	.btn-section {
 		position:relative;
@@ -9481,10 +9612,6 @@ label.css-label {
 		height: 50px !important;
 		overflow: hidden !important;
 	}
-
-
-
-
 
 
 

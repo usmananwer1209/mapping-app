@@ -36,10 +36,8 @@ define('FOPEN_READ_WRITE_CREATE',				'a+b');
 define('FOPEN_WRITE_CREATE_STRICT',				'xb');
 define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 
-
 define('PAGE_CONTET_COUNT',24);
 define('PRIVATE_COMPANY_INDICATOR','C');
-define('IDACITI_TOKEN', 'oepsy3b6');
 
 
 if (defined('ENVIRONMENT'))
@@ -55,14 +53,20 @@ if (defined('ENVIRONMENT'))
     }
 }
 
-define('REST_API_TERM_RESULTS_BY_ENTITY_ID', REST_API_URL . 'termResult/json?token={0}&entities={1}&terms={2}&periods={3}');
-define('REST_API_TERM_RESULTS_DRILLDOWN', REST_API_URL . 'termResult/drilldown/json?token={0}&entities={1}&term={2}&period={3}');
-define('REST_API_ENTITY', REST_API_URL . 'entity/json?token={0}');
-define('REST_API_TERM_RULE', REST_API_URL . 'termRule/json?token={0}');
-define('REST_API_BENCHMARK_TRENDING', REST_API_URL . 'benchmark/trending/json?token={0}&benchmarkEntity={1}&peerEntities={2}&term={3}&calcType={4}&periods={5}');
-define('REST_API_BENCHMARK_COMMONSIZE', REST_API_URL . 'benchmark/commonSize/json?token={0}&benchmarkEntity={1}&peerEntities={2}&reportType={3}&calcType={4}&period={5}');
-define('REST_API_BENCHMARK_SCATTERPLOT_INCLUDEALLPEERS', REST_API_URL . 'benchmark/scatterPlot/json?token={0}&benchmarkEntity={1}&includeAllPeers={2}&xAxisTermId={3}&yAxisTermId={4}&period={5}');
-define('REST_API_BENCHMARK_SCATTERPLOT_PEERLIST', REST_API_URL . 'benchmark/scatterPlot/json?token={0}&benchmarkEntity={1}&peerEntities={2}&xAxisTermId={3}&yAxisTermId={4}&period={5}');
+define('API_TOKEN', 'gK-!dU');
+//'oepsy3b6';
+
+define('REST_API_TERM_RULES', REST_API_URL.'termRule/filter/json?token={0}&criteria=SecXbrl');
+
+define('REST_API_TERM_RULE', REST_API_URL.'termRule/expressions/json?token={0}&termId={1}');
+
+define('REST_API_TERM_RULE_COVERAGE', REST_API_URL.'termRule/coverage/json?token={0}&termId={1}');
+
+define('REST_API_TERM_RULE_COVERAGE_SECTOR_INDUSTRY', REST_API_URL.'termRule/coverage/json?token={0}&termId={1}&sector={2}&industry={3}&sicCode={4}');
+
+define('REST_API_VIEW_TERM_RULE', REST_API_URL.'termResult/includeMissing/json?token={0}&entity={1}&term={2}&includeAnnual=true&includeQuarterly=true');
+
+
 define('URL','http://'.$_SERVER['HTTP_HOST'].'/idacitiBeta/');
 
 /* End of file constants.php */

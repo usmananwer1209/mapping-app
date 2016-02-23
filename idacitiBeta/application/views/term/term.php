@@ -9,7 +9,7 @@
 		  
 			<div class="content">
 					
-				<div class="col-md-3 col-sm-12 itacidi-new-left-panel">
+				<div class="col-md-3 col-sm-12 project-new-left-panel">
 				
 				<div id="inner-content-div"> 	
 
@@ -21,8 +21,8 @@
 						</form>	
 					</div>	
 					
-					<div class="col-md-12  col-sm-12 itacidi-new-left-panel-radio">
-						<div class="col-md-8 col-sm-10 itacidi-new-left-panel-radio-custom-ww">	
+					<div class="col-md-12  col-sm-12 project-new-left-panel-radio">
+						<div class="col-md-8 col-sm-10 project-new-left-panel-radio-custom-ww">	
 							<div class="radio" id="term_rules_radio">
 									<input type="radio" value="flat" name="term_rules" class="term_rules_radio" id="group1" checked="checked" >
 									<label for="group1">Flat List</label>
@@ -34,12 +34,12 @@
 							
 							
 						</div>
-						<div class="col-md-4 col-sm-12 itacidi-new-left-panel-radio-custom-ww">	
+						<div class="col-md-4 col-sm-12 project-new-left-panel-radio-custom-ww">	
 							<a href="#" class="btn custom-btn">Add Term</a>	
 						</div>	
 					</div>	
 					
-					<div class="col-md-12 col-sm-12 itacidi-new-left-panel-panels">
+					<div class="col-md-12 col-sm-12 project-new-left-panel-panels">
 
 <?php
 if($term_rules == 1)
@@ -172,12 +172,12 @@ No Record Found!
 					
 				</div>						
 						
-				<div class="col-md-9 col-sm-12 itacidi-new-right-panel full-section">					
+				<div class="col-md-9 col-sm-12 project-new-right-panel full-section">					
 
 				<div id="full-section-overlay" class="full-section-overlay" style="display:none">
 				</div>
 
-					<div class="row itacidi-new-right-panel-section-1">
+					<div class="row project-new-right-panel-section-1">
 						<div class="col-md-4  col-sm-4 ">
 							<h1>Term Rule & Expression</h1>	
 						</div>
@@ -189,12 +189,12 @@ No Record Found!
 							</div>
 						</div>	
 					</div>	
-					<div class="row itacidi-new-right-panel-section-2">
+					<div class="row project-new-right-panel-section-2">
 
 						<div id="term_rule">
 
-						<div class="col-md-6 col-sm-12 row itacidi-new-right-panel-section-4">
-							<form class="itacidi-custom-form">
+						<div class="col-md-6 col-sm-12 row project-new-right-panel-section-4">
+							<form class="project-custom-form">
 								<div class="form-group">
 									<label for="" class="col-md-3  control-label">Term Name:</label>
 									<div class="col-md-9">
@@ -263,10 +263,9 @@ No Record Found!
 
 						</div>
 						
-						<div class="col-md-6 col-sm-12 itacidi-new-right-panel-section-3">
+						<div class="col-md-6 col-sm-12 project-new-right-panel-section-3">
 							<div class="row btn-section">
-								<a class="btn custom-btn" href="#">Expression</a>	
-								<a class="btn custom-btn" href="#">Industry Overrides</a>	
+								<a class="btn custom-btn" href="#">Expression</a>		
 							</div>
 							<div id="term_rule_expression">	
 							<div class="row table-section">
@@ -290,14 +289,14 @@ No Record Found!
 						</div>	
 					</div>
 					
-					<div class="row itacidi-new-right-panel-section-1">
+					<div class="row project-new-right-panel-section-1">
 						<div class="col-md-12  col-sm-12">
 							<h1>Coverage & Term Results</h1>	
 						</div>
 					</div>
-					<div class="row itacidi-new-right-panel-section-2">
+					<div class="row project-new-right-panel-section-2">
 						<div class="col-md-12  col-sm-12 col-xs-12 row">
-							<form class="itacidi-custom-form">
+							<form class="project-custom-form">
 
 								<input type="hidden" id="term_id" value="" />
 
@@ -337,7 +336,7 @@ No Record Found!
 							
 						</div>
 						
-						<div class="col-md-7 col-sm-12 itacidi-new-right-panel-section-3 itacidi-new-right-panel-section-table-custom">
+						<div class="col-md-7 col-sm-12 project-new-right-panel-section-3 project-new-right-panel-section-table-custom">
 							
 							<div class="btn-section-overlay" id="section-overlay">
 							</div>
@@ -347,7 +346,7 @@ No Record Found!
 									<a class="btn custom-btn-2" id="company_resolved" >Show Companies Resolved</a>	
 								</div>
 								<div class="col-md-3 col-sm-4 custom-no-padd-column">
-									<form class="itacidi-custom-form-2">
+									<form class="project-custom-form-2">
 										<div class="form-group custom-form-group">
 											<select id="coverage_rank" class="form-control custom-form-control">
 												<option value="" >Select Rank</option>

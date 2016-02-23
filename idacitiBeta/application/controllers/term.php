@@ -22,14 +22,15 @@ class Term extends abstract_controller {
 
         $this->load->model('term_rule_financial_model', 'financial');   
 
-        $this->load->model('companies_model', 'company');                               
+        $this->load->model('companies_model', 'company'); 
+
+        $this->load->model('api_model', 'api');                                      
 
         $this->load->helper('array');
 
     }
 
     public function index() {
-
 
         $this->benchmark->mark('Home:index_start');
 
@@ -46,15 +47,7 @@ class Term extends abstract_controller {
      
             $data['sector_industry'] = $this->company->get_sector_industry();
 
-            // echo "<pre>";
-
-            // print_r($industry_sector);
-
-            // exit;
-
-            $url = 'http://data.idaciti.com:81/api/termRule/filter/json?token=gK-!dU&criteria=SecXbrl';
-
-            $term_rules = $this->term_model->curl_responce($url);
+            $term_rules = $this->api->get_term_rules();
 
             if(isset($term_rules) && count($term_rules) > 0)
             {    
@@ -107,17 +100,13 @@ class Term extends abstract_controller {
 
         $term_id = $this->input->post('term_id');
 
-        $url = 'http://data.idaciti.com:81/api/termRule/expressions/json?token=gK-!dU&termId='.$term_id.'';
-
-        $term_rule = $this->term_model->curl_responce($url);  
+        $term_rule = $this->api->get_term_rule($term_id);  
 
         $term_rule_expressions = $term_rule['expressions'];
 
         // Get coverage information for a specific term through API
 
-        $url = 'http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId='.$term_id.'';
-
-        $term_rule_coverge = $this->term_model->curl_responce($url);         
+        $term_rule_coverge = $this->api->get_term_rule_coverge($term_id);        
 
         $totalEntityCount = $term_rule_coverge['totalEntityCount'];
 
@@ -150,8 +139,8 @@ class Term extends abstract_controller {
         
         );
 
-        $term_rule_div =    "<div class='col-md-6 col-sm-12 row itacidi-new-right-panel-section-4'>
-                            <form class='itacidi-custom-form'>
+        $term_rule_div =    "<div class='col-md-6 col-sm-12 row project-new-right-panel-section-4'>
+                            <form class='project-custom-form'>
                                 <div class='form-group'>
                                     <label for='' class='col-md-3 control-label'>Term Name:</label>
                                     <div class='col-md-9'>
@@ -377,45 +366,7 @@ $term_rule_expression_div =    "<div class='row table-section'>
     public function get_coverage()
     {
 
-        function myUrlEncode($string) {
-
-            $entities = array('+', '%21', '%2A', '%27', '%28', '%29', '%3B', '%3A', '%40', '%26', '%3D', '%2B', '%24', '%2C', '%2F', '%3F', '%25', '%23', '%5B', '%5D', ',');
-            $replacements = array('%20' ,'!', '*', "'", "(", ")", ";", ":", "@", "&amp;", "=", "+", "$", ",", "/", "?", "%", "#", "[", "]", "%2C");
-            return str_replace($entities, $replacements, urlencode($string));
-
-        }        
-
-        $term_id = trim($this->input->post('term_id')); 
-
-        if(strpos($this->input->post('sector'), '&') == true)
-        {
-
-            $sector = trim(myUrlEncode('"'.$this->input->post('sector').'"'));
-        }
-        else
-        {   
-
-            $sector = trim(myUrlEncode($this->input->post('sector')));
-        
-        } 
-
-        if(strpos($this->input->post('industry'), '&') == true)
-        {
-
-            $industry = trim(myUrlEncode('"'.$this->input->post('industry').'"'));
-        }
-        else
-        {   
-
-            $industry = trim(myUrlEncode($this->input->post('industry')));
-        
-        }    
-
-        $sic_code = trim($this->input->post('sic_code'));                
-
-        $url = 'http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId='.$term_id.'&sector='.$sector.'&industry='.$industry.'&sicCode='.$sic_code;
-
-        $term_rule_coverge = $this->term_model->curl_responce($url);         
+        $term_rule_coverge = $this->api->get_term_rule_coverage_sector_industry();         
 
         $totalEntityCount = $term_rule_coverge['totalEntityCount'];
 
@@ -455,57 +406,11 @@ $term_rule_expression_div =    "<div class='row table-section'>
     }       
 
     public function company_resolved()
-    {
+    {    
 
-        function myUrlEncode($string) {
+        $term_id = $this->input->post('term_id');
 
-            $entities = array('+', '%21', '%2A', '%27', '%28', '%29', '%3B', '%3A', '%40', '%26', '%3D', '%2B', '%24', '%2C', '%2F', '%3F', '%25', '%23', '%5B', '%5D', ',');
-            $replacements = array('%20' ,'!', '*', "'", "(", ")", ";", ":", "@", "&amp;", "=", "+", "$", ",", "/", "?", "%", "#", "[", "]", "%2C");
-            return str_replace($entities, $replacements, urlencode($string));
-
-        }        
-
-        $term_id = trim($this->input->post('term_id')); 
-
-        if(strpos($this->input->post('sector'), '&') == true)
-        {
-
-            $sector = trim(myUrlEncode('"'.$this->input->post('sector').'"'));
-        }
-        else
-        {   
-
-            $sector = trim(myUrlEncode($this->input->post('sector')));
-        
-        } 
-
-        if(strpos($this->input->post('industry'), '&') == true)
-        {
-
-            $industry = trim(myUrlEncode('"'.$this->input->post('industry').'"'));
-        }
-        else
-        {   
-
-            $industry = trim(myUrlEncode($this->input->post('industry')));
-        
-        }    
-
-        $sic_code = trim($this->input->post('sic_code'));                
-
-        $url = 'http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId='.$term_id;
-
-        if($sector != '')
-        {
-            $url .= '&sector='.$sector.'&industry='.$industry;
-        }
-
-        if($sic_code != '')
-        {
-            $url .= '&sicCode='.$sic_code;            
-        }     
-
-        $term_rule_coverge = $this->term_model->curl_responce($url);         
+        $term_rule_coverge = $this->api->get_term_rule_coverage_sector_industry();         
 
         $coverageByRanks = $term_rule_coverge['coverageByRanks'];
 
@@ -607,45 +512,7 @@ $term_rule_expression_div =    "<div class='row table-section'>
     public function company_unresolved()
     {
 
-        function myUrlEncode($string) {
-
-            $entities = array('+', '%21', '%2A', '%27', '%28', '%29', '%3B', '%3A', '%40', '%26', '%3D', '%2B', '%24', '%2C', '%2F', '%3F', '%25', '%23', '%5B', '%5D', ',');
-            $replacements = array('%20' ,'!', '*', "'", "(", ")", ";", ":", "@", "&amp;", "=", "+", "$", ",", "/", "?", "%", "#", "[", "]", "%2C");
-            return str_replace($entities, $replacements, urlencode($string));
-
-        }        
-
-        $term_id = trim($this->input->post('term_id')); 
-
-        if(strpos($this->input->post('sector'), '&') == true)
-        {
-
-            $sector = trim(myUrlEncode('"'.$this->input->post('sector').'"'));
-        }
-        else
-        {   
-
-            $sector = trim(myUrlEncode($this->input->post('sector')));
-        
-        } 
-
-        if(strpos($this->input->post('industry'), '&') == true)
-        {
-
-            $industry = trim(myUrlEncode('"'.$this->input->post('industry').'"'));
-        }
-        else
-        {   
-
-            $industry = trim(myUrlEncode($this->input->post('industry')));
-        
-        }    
-
-        $sic_code = trim($this->input->post('sic_code'));                
-
-        $url = 'http://data.idaciti.com:81/api/termRule/coverage/json?token=gK-!dU&termId='.$term_id.'&sector='.$sector.'&industry='.$industry.'&sicCode='.$sic_code;
-
-        $term_rule_coverge = $this->term_model->curl_responce($url);         
+        $term_rule_coverge = $this->api->get_term_rule_coverage_sector_industry();         
 
         $unMappedEntityIDs = $term_rule_coverge['unMappedEntityIDs'];  
 
@@ -727,7 +594,7 @@ $term_rule_expression_div =    "<div class='row table-section'>
 
         $current = '/home/';
         
-        $data = $this -> security($current);
+        $data = $this->security($current);
 
         if ($data && !empty($data)) {
 
@@ -736,9 +603,7 @@ $term_rule_expression_div =    "<div class='row table-section'>
             $this->benchmark->mark('Home:index load_model_end');
             log_message('debug', "load home model " . $this->benchmark->elapsed_time('Home:index load_model_start', 'Home:index load_model_end'));
 
-            $url = 'http://data.idaciti.com:81/api/termResult/includeMissing/json?token=oepsy3b6&entity='.$entity_id.'&term='.$term_id.'&includeAnnual=true&includeQuarterly=true';
-
-            $view_term_rule = $this->term_model->curl_responce($url); 
+            $view_term_rule = $this->api->get_view_term_rule($entity_id, $term_id); 
 
             $annual_name = ''; 
 
@@ -788,7 +653,7 @@ $term_rule_expression_div =    "<div class='row table-section'>
 
             $data['max_value'] = max($value);
 
-            $data['view_term_rule_check'] = 'view_term_rule_check';                                                
+            $data['term_rules_check'] = 'view_term_rule';                                                
 
             $this->load->view('general/header', $data);
             $this->load->view('term/view_term_result', $data);
@@ -801,7 +666,26 @@ $term_rule_expression_div =    "<div class='row table-section'>
         $this->benchmark->mark('Home:index_end');
 
         log_message('debug', "load home took " . $this->benchmark->elapsed_time('Home:index_start', 'Home:index_end'));
-    }       
+    } 
+
+    public function expressionBuilder()
+    {
+
+        $current = '/home/';
+        
+        $data = $this -> security($current);
+
+        if ($data && !empty($data)) {    
+
+            $this->load->view('general/header', $data);
+            $this->load->view('term/add_expression', $data);
+            $this->load->view('general/footer');
+        
+        }else
+
+            redirect('login');
+
+    }      
 
     // public function get_decision_financial_cat() {
 

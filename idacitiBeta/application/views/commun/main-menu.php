@@ -38,26 +38,26 @@
           </a> 
         </li>
       
-<!--         <li class="<?php //echo (module_active($current, 'Browse Cards'))?'start active open':''; ?>"> 
-          <a href="<?php //echo site_url('sec');?>"> 
+        <li class="<?php //echo (module_active($current, 'Browse Cards'))?'start active open':''; ?>"> 
+          <a> 
             <i class="fa fa-th"></i> 
             <span class="title">SEC Facts Loader</span>
           </a> 
         </li>
 
         <li class="<?php //echo (module_active($current, 'Dashboard'))?'start active open':''; ?>"> 
-          <a href="stock"> 
+          <a> 
             <i class="fa fa-dollar"></i> 
             <span class="title">US Stock Price Loader</span>
           </a> 
         </li>
       
         <li class="<?php //echo (module_active($current, 'Browse Cards'))?'start active open':''; ?>"> 
-          <a href="<?php //echo site_url('data');?>"> 
+          <a> 
             <i class="fa fa-th"></i> 
             <span class="title">China Data Loader</span>
           </a> 
-        </li>  -->       
+        </li>        
 
       </ul>    
 

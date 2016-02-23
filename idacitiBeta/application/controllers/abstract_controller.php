@@ -8,10 +8,7 @@ class abstract_controller extends CI_Controller {
 	public function __construct() {
 		parent::__construct();
 		$this->load->model('users_model', 'users');
-		$this->load->model('circles_model', 'circles');
-		$this->load->model('user_circles_model', 'user_circles');
-		$this->load->model('cards_model', 'cards');
-		$this->load->model('storyboard_model', 'storyboards');
+		//$this->load->model('user_circles_model', 'user_circles');		
 		$this->load->model('user_companies_model', 'user_companies');
 
 	}
@@ -35,15 +32,14 @@ class abstract_controller extends CI_Controller {
 				$page_data['user'] = $user;
 				$page_data['user_company'] = $this->user_companies->list_users_company(1,'',1,$user->id);
 				$page_data['avatar'] = $this->users->get_avatar($user);
-				$page_data['my_circles'] =$this->circles->list_my_cirles($user->id, "2");
-				$page_data['all_accessible_cards_number'] = count($this->cards->cards_shared_with_user($user -> id,'',false));
-				$page_data['all_accessible_storyboards_number'] = count($this->storyboards->all_accessible_storyboards($user->id,'',false));
-				$page_data['all_circles'] =$this->circles->list_all_cirles();
-				$page_data['my_recent_5_cards'] = $this->users->list_cards($user->id);
-				$page_data['my_recent_5_storyboards'] = $this->users->list_storyboards($user->id);
+				//$page_data['my_recent_5_cards'] = $this->users->list_cards($user->id);
+				//$page_data['my_recent_5_storyboards'] = $this->users->list_storyboards($user->id);
                                 
 				//var_dump($page_data['cards']);
-				$page_data['notifications'] = $this->user_circles->notifications($user->id);
+				//$page_data['notifications'] = $this->user_circles->notifications($user->id);
+				
+				$page_data['notifications'] = array();
+
 				return $page_data;
 			} else
 				redirect('authorization');

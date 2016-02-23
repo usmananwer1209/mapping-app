@@ -106,7 +106,7 @@ $autoload['language'] = array();
 | Prototype:
 |*/
 
-$autoload['model'] = array('users_model', 'user_circles_model','circles_model');
+$autoload['model'] = array('users_model');
 
 
 /* End of file autoload.php */
